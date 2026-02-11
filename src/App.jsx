@@ -151,7 +151,7 @@ function App() {
             onClick={() => setPage("home")}
             className="w-full mt-3 text-gray-500 text-sm hover:underline"
           >
-            🏠 หน้าแรก
+            🏠 หน้าหลัก
           </button>
 
           <p className="text-xs text-center text-gray-400 mt-4">
@@ -176,7 +176,7 @@ function App() {
               onClick={() => setPage("home")}
               className="text-blue-600 font-medium"
             >
-              🏠 หน้าแรก
+              🏠 หน้าหลัก
             </button>
 
             <button
@@ -197,7 +197,7 @@ function App() {
             className="w-full border p-2 mb-2"
             value={newTitle}
             onChange={(e) => setNewTitle(e.target.value)}
-            placeholder="หัวข้อ"
+            placeholder="หัวข้อหลัก"
           />
 
           <textarea
